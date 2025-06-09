@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vulnerability Scanner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #eef1f7;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .scanner-box {
+            margin-top: 100px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .scanner-box h2 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 scanner-box">
+                <h2 class="text-center">Web App Vulnerability Scanner</h2>
+                <form method="post">
+                    <div class="form-group mt-4">
+                        <label for="url">Enter Website URL</label>
+                        <input type="text" name="url" class="form-control" placeholder="https://example.com" required>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary">🔍 Start Scan</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
